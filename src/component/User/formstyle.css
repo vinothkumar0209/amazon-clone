@@ -1,0 +1,30 @@
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+input:hover{
+    border: 1px solid blue;
+}
+input{
+    padding: 10px;
+}
+button{
+    height: 50px;
+    background: rgba(255, 163, 3, 0.816);
+    border:none;
+    border-radius: 10px;
+}

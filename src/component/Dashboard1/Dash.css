@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.split{
+    display: flex;
+}
+.navbar{
+    
+    height: 60px;
+    width: 100%;
+    background: rgba(255, 163, 3, 0.816);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    input{
+        height: 5px;
+        width: 30%;
+        border-radius: 5px;
+        margin: 5px;
+        margin-top: 15px;
+        margin-left: 450px;
+        
+    }
+    input:hover{
+        border: 1px solid blue;
+    }
+    button{
+      margin: 10px;
+    }
+}
+.menu{
+    height: 700px;
+    width: 10%;
+    padding-top: 15PX;
+    background: white;
+    justify-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    p{
+      text-decoration: none;
+      color: black;
+      
+    }
+  
+}
+.subproduct{
+    display: flex;
+    margin-left: 30px;
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 220px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .offerprice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-right: 5px;
+  }
+  
+  .price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .product-reviews {
+    font-size: 14px;
+    color: #555;
+  }
+  .product-image{
+    height: 100px;
+    width: 70%;
+  }
